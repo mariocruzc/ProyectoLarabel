@@ -8,8 +8,8 @@ name = "javascript"
 
   [analyzers.meta]
   plugins = [
-    "angular",
-    "angularjs"
+    "angularjs",
+    "angular"
   ]
   environment = [
     "jquery",
