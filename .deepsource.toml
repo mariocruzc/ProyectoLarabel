@@ -3,5 +3,15 @@ version = 1
 [[analyzers]]
 name = "php"
 
-[[transformers]]
-name = "php-cs-fixer"
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "angular",
+    "angularjs"
+  ]
+  environment = [
+    "jquery",
+    "nodejs"
+  ]
